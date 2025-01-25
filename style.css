@@ -1,0 +1,61 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    border-style: none;
+    border: none;
+}
+
+.head-div {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(243, 108, 5, 0.5);
+    z-index: 1;
+    margin-top: 1%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea {
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(243, 108, 5, 0.5);
+    border-radius: 4%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    outline: none;
+
+    /* -webkit-box-shadow: none;
+    -moz-box-shadow: none; */
+    box-shadow: none;
+
+    resize: none; 
+    font-size: 30px;
+    padding: 15px;
+    
+}
+
+
